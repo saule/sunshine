@@ -218,13 +218,7 @@ public class ForecastFragment extends Fragment {
 
     }
 
-    public void showMap(Uri geoLocation) {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(geoLocation);
-        if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
-            startActivity(intent);
-        }
-    }
+
 
     public void updateData(){
         FetchWeatherTask fetchWeatherTask = new FetchWeatherTask();
@@ -256,12 +250,7 @@ public class ForecastFragment extends Fragment {
             return true;
         }
 
-        if(id == R.id.action_map){
-            Log.v(LOG_TAG,"action map pressed");
-            String geoLocation = "geo:"+latitude+","+longitude;
-            showMap(Uri.parse(geoLocation));
-            return true;
-        }
+
     return super.onOptionsItemSelected(item);
     }
 

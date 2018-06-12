@@ -25,4 +25,5 @@
     <string name="pref_unit_values_celsius" translatable="false">metric</string>
     <string name="pref_unit_values_fahrenheit" translatable="false">imperial</string>
     <string name="pref_unit_values_kelvin" translatable="false">kelvin</string>
+    <string name="action_share" translatable="false">share</string>
 </resources>
