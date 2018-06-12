@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="units">
+        <item>@string/pref_units_celsius</item>
+        <item>@string/pref_units_fahrenheit</item>
+        <item>@string/pref_units_kelvin</item>
+    </array>
+    <array name="unit_values">
+        <item>@string/pref_unit_values_celsius</item>
+        <item>@string/pref_unit_values_fahrenheit</item>
+        <item>@string/pref_unit_values_kelvin</item>
+    </array>
+</resources>
